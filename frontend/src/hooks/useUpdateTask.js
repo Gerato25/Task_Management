@@ -6,6 +6,9 @@ import {
 	deleteDoneTask,
 	deleteInProgressTask,
 	deleteTodoTask,
+	updateBacklogTask,
+	updateDoneTask,
+	updateInProgressTask,
 	updateTodoTask,
 } from "../redux/slices/taskSlice";
 const useUpdateTask = (
@@ -47,7 +50,15 @@ const useUpdateTask = (
 				} else if (json?.removeAssignCategory == "done") {
 					dispatch(deleteDoneTask(json.data));
 				} else {
-					dispatch(updateTodoTask(json.data));
+					if (json.data.category == "to-do") {
+						dispatch(updateTodoTask(json.data));
+					} else if (json.data.category == "backlog") {
+						dispatch(updateBacklogTask(json.data));
+					} else if (json.data.category == "in-progress") {
+						dispatch(updateInProgressTask(json.data));
+					} else {
+						dispatch(updateDoneTask(json.data));
+					}
 				}
 				dispatch(setTaskCardM(false));
 				dispatch(setTaskM(""));
