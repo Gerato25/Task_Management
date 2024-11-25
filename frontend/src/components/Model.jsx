@@ -207,7 +207,6 @@ export const TaskCard = () => {
 	const auth = useSelector((store) => store.auth);
 
 	const dispatch = useDispatch();
-	const dueDateBox = useRef("");
 	const [dueDate, setDueDate] = useState(task?.dueDate || "");
 	const [title, setTitle] = useState(task?.title || "");
 	const [priority, setPriority] = useState(task?.priority || "");
@@ -522,7 +521,11 @@ export const TaskCard = () => {
 				<div className="model-btns">
 					<label
 						htmlFor="model-card-date"
-						onClick={(e) => dueDateBox.current?.showPicker()}
+						onClick={(e) =>
+							document
+								?.getElementById("model-card-date")
+								?.showPicker()
+						}
 					>
 						<button className="model-due-date" type="button">
 							{dueDate ? simpleDate(dueDate) : "Select Due Date"}
@@ -532,8 +535,7 @@ export const TaskCard = () => {
 						type="date"
 						name="due-date"
 						id="model-card-date"
-						ref={dueDateBox}
-						value={dueDate}
+						value={dueDate.split("T")[0]}
 						onChange={(e) => {
 							setDueDate(e.target?.value);
 						}}
