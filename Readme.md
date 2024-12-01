@@ -161,7 +161,7 @@ _A task management app, where users can organise their personal and team-based t
     ```bash
     npm install
     ```
-3. Create a `.env` file in the backend directory and add:
+3. Create a `.env` file in the frontend directory and add:
     ```env
     VITE_BACKEND_URL=http://localhost:9000
     VITE_FRONTEND_URL=http://localhost:5173
