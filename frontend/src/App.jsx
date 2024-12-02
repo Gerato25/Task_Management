@@ -10,6 +10,7 @@ import { addAuth } from "./redux/slices/authSlice";
 import { setLoading } from "./redux/slices/stateSlice";
 import { TaskCardPublic } from "./components/Model";
 import getHeader from "./utils/header";
+import { toast } from "react-toastify";
 
 function App() {
 	const dispatch = useDispatch();
@@ -32,6 +33,7 @@ function App() {
 					navigate("/");
 				} else {
 					navigate("/login");
+					toast.error("You are not logged in");
 				}
 			})
 			.catch((err) => {
