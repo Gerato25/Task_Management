@@ -1,6 +1,6 @@
 # **Task Management Application**
 
-This is a **Task Management Application** built with a **MERN stack**. The frontend is developed using React with Vite, and the backend is built using Express.js with MongoDB for the database.
+This is a Task Management Application built with a MERN stack. The front end is developed using React with Vite, and the back-end is built using Express.js with MongoDB for the database.
 
 ---
 
@@ -14,7 +14,7 @@ This is a **Task Management Application** built with a **MERN stack**. The front
 
 ## 📜 Project Overview
 
-_A task management app, where users can organise their personal and team-based tasks, track progress, and share task updates. Users can manage their task boards with features to create, edit, assign, and delete tasks for themselves and other members._
+_A task management app, where users can organize their personal and team-based tasks, track progress, and share task updates. Users can manage their task boards with features to create, edit, assign, and delete tasks for themselves and other members._
 
 <p align="center">Register Page</p>
 <a style="" href="https://task-management-org.vercel.app/login">
@@ -85,7 +85,7 @@ _A task management app, where users can organise their personal and team-based t
 
     -   Task titles are truncated on the board for readability, with full titles accessible via tooltips.
     -   Mandatory fields are marked with a red asterisk (\*).
-    -   Notifications and alerts provided via toast messages.
+    -   Notifications and alerts are provided via toast messages.
 
 -   **Collaboration:**
     -   Add members to task boards.
@@ -96,7 +96,7 @@ _A task management app, where users can organise their personal and team-based t
 -   Visual indicators for task statuses based on due dates:
     -   **Red**: Overdue tasks in active categories.
     -   **Green**: Tasks marked as done.
--   Pre-filled user information for seamless updates in the settings page.
+-   Pre-filled user information for seamless updates on the settings page.
 
 ## 🛠️ **Tech Stack**
 
@@ -196,13 +196,13 @@ _A task management app, where users can organise their personal and team-based t
 
 ## **Live Demo**
 
-Check out the live demo of the Task Management here: [Task Management](https://task-management-org.vercel.app)
+Check out the live demo of Task Management here: [Task Management](https://task-management-org.vercel.app)
 
 ## **Author**
 
 Akash Deep \
 Email: contact.akashdeep023@gmail.com \
-LinkedIn : https://www.linkedin.com/in/akashdeep023/
+LinkedIn: https://www.linkedin.com/in/akashdeep023/
 
 ## **Contributors**
 
