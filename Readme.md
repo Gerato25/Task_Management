@@ -194,25 +194,6 @@ _A task management app, where users can organize their personal and team-based t
 
 ---
 
-## **Live Demo**
-
-Check out the live demo of Task Management here: [Task Management](https://task-management-org.vercel.app)
-
-## **Author**
-
-Akash Deep \
-Email: contact.akashdeep023@gmail.com \
-LinkedIn: https://www.linkedin.com/in/akashdeep023/
-
-## **Contributors**
-
-We'd like to acknowledge the efforts and contributions of the following individuals:
-
--   **[Akash Deep](https://github.com/akashdeep023)** - Full Stack development and Project lead.
--   **[Ekant Verma](https://github.com/ekantverma)** - Full Stack development.
--   **[Anjali Kumari](https://github.com/Anjali17aj)** - Full Stack development.
--   **[Shanedra Singh](https://github.com/shanedraSingh/)** - Full Stack development.
-
 ## **License**
 
 This project is licensed under the [MIT License](LICENSE).
